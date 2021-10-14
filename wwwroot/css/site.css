@@ -1,0 +1,176 @@
+﻿@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../assets/fonts/SourceSansPro-SemiBold.ttf');
+    font-weight: bold !important;
+}
+
+html,
+body,
+header,
+.view,
+.bg-inicio {
+    height: 100%;
+}
+.vh-50 {
+    height:50vh;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    
+    .view {
+        height: 100vh;
+    }
+    header, .bg-inicio {
+        height: 70%;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #FFFFFF80 !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background-color: transparent !important;
+}
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #FFFFFF80 !important;
+    }
+    header, .bg-inicio {
+        height: 80%;
+    }
+}
+
+* {
+    font-family: 'Source Sans Pro' !important;
+}
+/*backgrouns*/
+.bg-footer {
+    background-image: url('../assets/img/footer_kunatum.png') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.bg-inicio {
+    background-image: url('../assets/img/inicio.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.bg-ventajas {
+    background-image: url('../assets/img/ventajas.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-contacto {
+    background-image: url('../assets/img/contacto.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-inputs {
+    background-color: #93C01F60 !important;
+}
+/*backgrouns*/
+
+/*text color*/
+.txt-orange {
+    color: #FF6F00 !important;
+}
+
+.txt-green {
+    color: #93C01F !important;
+}
+/*text color*/
+
+.navbar {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.nav-link {
+    font-size: 1.5rem !important;
+    padding-inline: 1.35rem !important;
+}
+    .nav-link:hover {
+        background-color: rgba(0,0,0,0.5) !important;
+        color: white !important;
+    }
+
+/*BOTONES CUSTOM*/
+.btn-orange {
+    color: #ffffff;
+    background-color: #FF6F00;
+    border-color: #FF6F00;
+}
+
+    .btn-orange:hover,
+    .btn-orange:focus,
+    .btn-orange:active,
+    .btn-orange.active,
+    .open .dropdown-toggle.btn-orange {
+        color: #ffffff;
+        background-color: #FF4400;
+        border-color: #FF6F00;
+    }
+
+    .btn-orange:active,
+    .btn-orange.active,
+    .open .dropdown-toggle.btn-orange {
+        background-image: none;
+    }
+
+    .btn-orange.disabled,
+    .btn-orange[disabled],
+    fieldset[disabled] .btn-orange,
+    .btn-orange.disabled:hover,
+    .btn-orange[disabled]:hover,
+    fieldset[disabled] .btn-orange:hover,
+    .btn-orange.disabled:focus,
+    .btn-orange[disabled]:focus,
+    fieldset[disabled] .btn-orange:focus,
+    .btn-orange.disabled:active,
+    .btn-orange[disabled]:active,
+    fieldset[disabled] .btn-orange:active,
+    .btn-orange.disabled.active,
+    .btn-orange[disabled].active,
+    fieldset[disabled] .btn-orange.active {
+        background-color: #FF6F00;
+        border-color: #FF6F00;
+    }
+
+    .btn-orange .badge {
+        color: #FF6F00;
+        background-color: #ffffff;
+    }
+/*BOTONES CUSTOM*/
+
+.md-form.md-outline input[type="text"]:focus:not([readonly]), 
+.md-form.md-outline input[type="email"]:focus:not([readonly]),  
+.md-form.md-outline input[type="tel"]:focus:not([readonly]), 
+.md-form.md-outline textarea.md-textarea:focus:not([readonly]) {
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.md-form input:not([type]):focus:not([readonly]), 
+.md-form input[type="text"]:not(.browser-default):focus:not([readonly]),  
+.md-form input[type="email"]:not(.browser-default):focus:not([readonly]),  
+.md-form input[type="tel"]:not(.browser-default):focus:not([readonly]),  
+.md-form input[type="phone"]:not(.browser-default):focus:not([readonly]),
+.md-form textarea.md-textarea:focus:not([readonly]) {
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
